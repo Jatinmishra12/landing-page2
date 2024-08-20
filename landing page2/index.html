@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">My Landing Page</div>
+        <span class="menu-icon" onclick="toggleMenu()">☰</span>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#signup">Sign Up</a></li>
+        </ul>
+    </nav>
+    <header id="home" class="hero">
+        <h1>Welcome to Our Service</h1>
+        <p>Sign up for exclusive offers!</p>
+        <a href="#signup" class="cta-button">Get Started</a>
+    </header>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Information about your service.</p>
+    </section>
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 My Landing Page</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
